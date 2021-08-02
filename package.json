@@ -1,0 +1,9 @@
+{
+  "name": "awesomeness",
+  "version": "1.0.0",
+  "description": "an awesome app",
+  "main": "index.js",
+  "repository": "https://github.com/JimmyZiqiangCheng/project-awesome.git",
+  "author": "Jimmy Cheng <chengziqiang@gmail.com>",
+  "license": "MIT"
+}
