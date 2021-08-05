@@ -10,4 +10,4 @@
 - [X] make the whole thing work
 - [X] read react context
 - [X] read react HOC
-- [ ] try to understand how login works under app.js
+- [ ] try to understand how login works under app folder
