@@ -8,3 +8,6 @@
 - [X] add the configure files
 - [X] understand every single npm scripts (not too familiar with the cracle part)
 - [X] make the whole thing work
+- [X] read react context
+- [X] read react HOC
+- [ ] try to understand how login works under app.js
