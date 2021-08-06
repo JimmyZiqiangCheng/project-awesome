@@ -13,7 +13,8 @@
 - [ ] try to understand how login works under app folder
 
 ## Todo 2021.08.09
-- [ ] Learn Redux: https://redux.js.org
+- [X] Learn Redux: https://redux.js.org
+- [X] Functional programming and immutable
 - [ ] try to understand JWT login
 - [ ] make auth0 work
 - [ ] delete parts that are irrelevant to shopping cart and login
