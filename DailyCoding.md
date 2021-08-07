@@ -16,3 +16,9 @@
 ## 2021-08-06
 [merge sorted array](https://leetcode.com/problems/merge-sorted-array/)
 - my solution: going backwards, compare elements and put the bigger one in the first array. Then simply slot in the remaining array.
+
+## 2021-08-07
+[two sum](https://leetcode.com/problems/two-sum/)
+
+## 2021-08-08
+[move-zeroes](https://leetcode.com/problems/move-zeroes/)
