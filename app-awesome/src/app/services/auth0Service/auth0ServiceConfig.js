@@ -1,7 +1,7 @@
 const AUTH_CONFIG = {
-	// domain     : "YOUR_DOMAIN",
-	// clientId   : "YOUR_CLIENT_ID",
-	// callbackUrl: "YOUR_DOMAIN/callback"
+	domain     : "dev-jimmycheng.au.auth0.com",
+	clientId   : "eBJcS1UGLDi4yBfR7woyyQpd7jljk26g",
+	callbackUrl: "http://localhost:3000/apps/dashboards/analytics"
 };
 
 export default AUTH_CONFIG;
