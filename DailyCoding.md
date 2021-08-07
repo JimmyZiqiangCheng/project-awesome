@@ -19,6 +19,6 @@
 
 ## 2021-08-07
 [two sum](https://leetcode.com/problems/two-sum/)
-
+- my solution: traverse through the list once, store the (needed_val,cur_index) in a hashmap, if cur_val is already a key, return map[cur_val] and the cur_index
 ## 2021-08-08
 [move-zeroes](https://leetcode.com/problems/move-zeroes/)
