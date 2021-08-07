@@ -15,7 +15,8 @@
 ## Todo 2021.08.09
 - [X] Learn Redux: https://redux.js.org
 - [X] lodash (composing and piping) and currying
-- [X] Functional programming and immutable and immer, produce(obj, newOb => do the same as if mutating)(like it over immutable)
+- [X] Functional programming, pure functions, immutable and immer
+- [ ] try to refactor my "todo app" using react-redux and redux toolkit
 - [ ] try to understand JWT login
 - [ ] make auth0 work
 - [ ] delete parts that are irrelevant to shopping cart and login
