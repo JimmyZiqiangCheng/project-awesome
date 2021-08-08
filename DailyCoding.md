@@ -22,3 +22,5 @@
 - my solution: traverse through the list once, store the (needed_val,cur_index) in a hashmap, if cur_val is already a key, return map[cur_val] and the cur_index
 ## 2021-08-08
 [move-zeroes](https://leetcode.com/problems/move-zeroes/)
+- solution1: have a index of lastNoneZero, traverse through the array, when not zero, swap cur with lastNoneZero, lastNoneZero ++
+- solution2: traverse through the array, pop zeros, append them back at the end (have a zero counter)
