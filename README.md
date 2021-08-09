@@ -9,9 +9,10 @@
 - [X] read react context and HOC
 
 ## Todo 2021.08.09
-- [X] Learn Redux: https://redux.js.org
+- [X] learn Redux: https://redux.js.org
 - [X] lodash (composing and piping) and currying
-- [X] Functional programming, pure functions, immutable and immer
-- [ ] try to understand JWT login
+- [X] functional programming, pure functions, immutable and immer
+- [X] refactor todo code with redux toolkit
+- [X] try to understand JWT login (still puzzeled by some implementation details though)
 - [X] make auth0 work
-- [ ] delete parts that are irrelevant to shopping cart and login
+- [ ] delete parts that are irrelevant to shopping cart and login (lack overall understanding of the structure to safely do it)
