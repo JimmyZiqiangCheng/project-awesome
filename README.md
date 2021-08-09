@@ -20,3 +20,5 @@
 ## Todo 2021.08.12
 - [ ] redux-saga vs. redux-thunk
 - [ ] refactor the todo app with react-redux (no toolkit)
+- [ ] understand JWT/auth0 and see how the user data flows
+- [ ] delete parts that are irrelevant to shopping cart and login
