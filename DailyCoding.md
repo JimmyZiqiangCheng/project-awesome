@@ -2,6 +2,7 @@
 
 ## 2021-08-09
 [plus one](https://leetcode.com/problems/plus-one/)
+- my solution: set a flag carry = false, and traverse through the list backwards, if first item, or carry == true, then add 1 to the item, if item > 9, set carry to true. In the end, check if the carry is still true, meaning the last item is 10, then append a 1 in front of the list.
 
 ## 2021-08-08
 [move zeroes](https://leetcode.com/problems/move-zeroes/)
