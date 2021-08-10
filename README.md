@@ -18,7 +18,7 @@
 - [ ] delete parts that are irrelevant to shopping cart and login (lack overall understanding of the structure to safely do it)
 
 ## Todo 2021.08.12
-- [ ] redux-saga vs. redux-thunk
+- [X] redux-saga vs. redux-thunk
 - [ ] refactor the todo app with react-redux (no toolkit)
 - [ ] understand JWT/auth0 and see how the user data flows
 - [ ] delete parts that are irrelevant to shopping cart and login
