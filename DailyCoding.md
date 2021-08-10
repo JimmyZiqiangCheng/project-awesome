@@ -1,6 +1,7 @@
 # Daily Coding Challenge
 ## 2021-08-10
 [design circular deque](https://leetcode.com/problems/design-circular-deque/)
+- my solution: It's pretty straigtforward if using Python or Javascript, simply utilize the built-in list or array data structure. It helps to speed up the calculation if you keep the cur_size as a property.
 
 ## 2021-08-09
 [plus one](https://leetcode.com/problems/plus-one/)
