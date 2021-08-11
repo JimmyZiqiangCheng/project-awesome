@@ -1,4 +1,3 @@
-import FuseSearch from '@fuse/core/FuseSearch';
 import AppBar from '@material-ui/core/AppBar';
 import Hidden from '@material-ui/core/Hidden';
 import { makeStyles, ThemeProvider } from '@material-ui/core/styles';
@@ -12,10 +11,6 @@ import clsx from 'clsx';
 import { memo } from 'react';
 import { useSelector } from 'react-redux';
 import { selectToolbarTheme } from 'app/store/fuse/settingsSlice';
-import AdjustFontSize from '../../shared-components/AdjustFontSize';
-import FullScreenToggle from '../../shared-components/FullScreenToggle';
-import LanguageSwitcher from '../../shared-components/LanguageSwitcher';
-import NotificationPanelToggleButton from '../../shared-components/notificationPanel/NotificationPanelToggleButton';
 
 const useStyles = makeStyles(theme => ({
 	root: {}
@@ -47,32 +42,7 @@ function ToolbarLayout3(props) {
 							<Logo />
 						</div>
 					</Hidden>
-
-					<div className="flex flex-1">
-						<Hidden xsDown>
-							<FuseSearch className="mx-16 lg:mx-24" variant="basic" />
-						</Hidden>
-					</div>
-
 					<div className="flex items-center px-8 md:px-0 h-full overflow-x-auto">
-						<Hidden smUp>
-							<FuseSearch />
-						</Hidden>
-
-						<Hidden lgUp>
-							<ChatPanelToggleButton />
-						</Hidden>
-
-						<LanguageSwitcher />
-
-						<AdjustFontSize />
-
-						<FullScreenToggle />
-
-						<QuickPanelToggleButton />
-
-						<NotificationPanelToggleButton />
-
 						<UserMenu />
 					</div>
 				</Toolbar>
