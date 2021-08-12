@@ -23,4 +23,7 @@
 - [X] delete parts that are irrelevant to shopping cart and login
 
 ## Todo 2021.08.16
-- [ ] promise, async, await, micro task, macro task 
+- [ ] promise, async, await, micro task, macro task
+- [ ] event loop, optional chaining
+- [ ] understand config routes and products
+- [ ] delete all routes except for /products
