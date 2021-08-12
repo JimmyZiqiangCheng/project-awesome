@@ -1,9 +1,13 @@
 # Daily Coding Challenge
 
+## 2021-08-12
+[valid anagram](https://leetcode.com/problems/valid-anagram/)
+
 ## 2021-08-11
 [binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - recursive solution: create an empty list, pass it in a recursive function which goes node.left, list.append(val) and node.right
 - iterative solution: use a stack to push and pop the cur val 
+- 
 ## 2021-08-10
 [design circular deque](https://leetcode.com/problems/design-circular-deque/)
 - my solution: It's pretty straigtforward if using Python or Javascript, simply utilize the built-in list or array data structure. It helps to speed up the calculation if you keep the cur_size as a property.
