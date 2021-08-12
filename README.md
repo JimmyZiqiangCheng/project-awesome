@@ -21,3 +21,6 @@
 - [X] refactor the todo app with react-redux (no toolkit)
 - [X] understand JWT/auth0 and see how the user data flows
 - [X] delete parts that are irrelevant to shopping cart and login
+
+## Todo 2021.08.16
+- [ ] promise, async, await, micro task, macro task 
