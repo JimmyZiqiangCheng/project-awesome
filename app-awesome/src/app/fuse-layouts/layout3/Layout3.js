@@ -1,9 +1,6 @@
-import FuseDialog from '@fuse/core/FuseDialog';
-import FuseMessage from '@fuse/core/FuseMessage';
 import FuseSuspense from '@fuse/core/FuseSuspense';
 import { makeStyles } from '@material-ui/core/styles';
 import AppContext from 'app/AppContext';
-import SettingsPanel from 'app/fuse-layouts/shared-components/SettingsPanel';
 import clsx from 'clsx';
 import { memo } from 'react';
 import { useSelector } from 'react-redux';
@@ -59,14 +56,7 @@ function Layout3(props) {
 									)}
 								/>
 							)}
-
-							<div className="sticky top-0 z-99">
-								<SettingsPanel />
-							</div>
-
 							<div className="flex flex-col flex-auto min-h-0 relative z-10">
-								<FuseDialog />
-
 								<FuseSuspense>{renderRoutes(routes)}</FuseSuspense>
 
 								{props.children}
@@ -79,7 +69,6 @@ function Layout3(props) {
 					</div>
 
 					{config.rightSidePanel.display && <RightSideLayout3 />}
-					<FuseMessage />
 				</div>
 			)}
 		</AppContext.Consumer>

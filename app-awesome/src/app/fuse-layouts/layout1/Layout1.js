@@ -1,9 +1,6 @@
-import FuseDialog from '@fuse/core/FuseDialog';
-import FuseMessage from '@fuse/core/FuseMessage';
 import FuseSuspense from '@fuse/core/FuseSuspense';
 import { makeStyles } from '@material-ui/core/styles';
 import AppContext from 'app/AppContext';
-import SettingsPanel from 'app/fuse-layouts/shared-components/SettingsPanel';
 import clsx from 'clsx';
 import { memo, useContext } from 'react';
 import { useSelector } from 'react-redux';
@@ -49,16 +46,8 @@ function Layout1(props) {
 					{config.toolbar.display && (
 						<ToolbarLayout1 className={config.toolbar.style === 'fixed' && 'sticky top-0'} />
 					)}
-
-					<div className="sticky top-0 z-99">
-						<SettingsPanel />
-					</div>
-
 					<div className="flex flex-col flex-auto min-h-0 relative z-10">
-						<FuseDialog />
-
 						<FuseSuspense>{renderRoutes(routes)}</FuseSuspense>
-
 						{props.children}
 					</div>
 
@@ -71,7 +60,6 @@ function Layout1(props) {
 			</div>
 
 			{config.rightSidePanel.display && <RightSideLayout1 />}
-			<FuseMessage />
 		</div>
 	);
 }

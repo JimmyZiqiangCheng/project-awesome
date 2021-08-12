@@ -17,9 +17,9 @@ const authDB = {
 			password: 'admin',
 			role: 'admin',
 			data: {
-				displayName: 'Abbott Keitch',
-				photoURL: 'assets/images/avatars/Abbott.jpg',
-				email: 'admin@fusetheme.com',
+				displayName: 'Jimmy Cheng',
+				photoURL: 'assets/images/avatars/jimmy.jpg',
+				email: 'jimmycheng@app-awesome.com',
 				settings: {
 					layout: {
 						style: 'layout1',
@@ -60,9 +60,9 @@ const authDB = {
 			password: 'staff',
 			role: 'staff',
 			data: {
-				displayName: 'Arnold Matlock',
-				photoURL: 'assets/images/avatars/Arnold.jpg',
-				email: 'staff@fusetheme.com',
+				displayName: 'Abby Yang',
+				photoURL: 'assets/images/avatars/abby.jpg',
+				email: 'abbyyang@app-awesome.com',
 				settings: {
 					layout: {
 						style: 'layout2',
