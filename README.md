@@ -27,3 +27,4 @@
 - [ ] event loop, optional chaining
 - [ ] understand config routes and products
 - [ ] delete all routes except for /products
+- [ ] try chrome debugger
