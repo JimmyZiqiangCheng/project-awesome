@@ -2,6 +2,7 @@
 
 ## 2021-08-12
 [valid anagram](https://leetcode.com/problems/valid-anagram/)
+- my solution: put each value into a hashmap for each string, and the value of the key is a counter. If all entries are equal between two maps then true, otherwise false
 
 ## 2021-08-11
 [binary tree inorder traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
