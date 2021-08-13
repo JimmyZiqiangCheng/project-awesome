@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-14
+[group anagrams](https://leetcode.com/problems/group-anagrams/)
+
 ## 2021-08-13
 [preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 - recursive solution: put the cur_node.val in list, check if it's got children, call recursively for each child with the same operation.
