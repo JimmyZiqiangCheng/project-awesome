@@ -1,7 +1,7 @@
 # Daily Coding Challenge
 
 ## 2021-08-13
-- [preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
+[preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
 
 ## 2021-08-12
 [valid anagram](https://leetcode.com/problems/valid-anagram/)
