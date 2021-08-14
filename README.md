@@ -24,7 +24,7 @@
 
 ## Todo 2021.08.16
 - [X] promise, async, await
-- [ ] event loop,  micro task, macro task, optional chaining
+- [X] event loop,  micro task, macro task, optional chaining
 - [ ] understand config routes and products
 - [ ] delete all routes except for /products
 - [ ] try chrome debugger
