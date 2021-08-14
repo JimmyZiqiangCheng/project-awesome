@@ -2,6 +2,7 @@
 
 ## 2021-08-14
 [group anagrams](https://leetcode.com/problems/group-anagrams/)
+- my solution: if anagram then sorted(a) == sorted (b), loop through the list, use sorted(ele) as key to a hashmap, append each ele that has the same sorted value under the key to form a list.
 
 ## 2021-08-13
 [preorder-traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)
