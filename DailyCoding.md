@@ -5,6 +5,7 @@
 
 ## 2021-08-15
 [chou shu](https://leetcode-cn.com/problems/chou-shu-lcof/)
+- my solution: chou shu is simply a number from either 1 or 2*n or 3*n or 5*n. Have 3 pointers for each list, iterate n times and move the corresponding pointer.
 
 ## 2021-08-14
 [group anagrams](https://leetcode.com/problems/group-anagrams/)
