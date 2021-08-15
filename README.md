@@ -30,4 +30,5 @@
 - [ ] try chrome debugger
 
 ## Questions:
-- useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
+- productsTable: useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
+- productsTableHead: iconButton -> aria-owns/aria-haspopup
