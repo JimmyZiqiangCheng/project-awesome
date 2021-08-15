@@ -1,5 +1,11 @@
 # Daily Coding Challenge
 
+## 2021-08-16
+
+
+## 2021-08-15
+[chou shu](https://leetcode-cn.com/problems/chou-shu-lcof/)
+
 ## 2021-08-14
 [group anagrams](https://leetcode.com/problems/group-anagrams/)
 - my solution: if anagram then sorted(a) == sorted (b), loop through the list, use sorted(ele) as key to a hashmap, append each ele that has the same sorted value under the key to form a list.
