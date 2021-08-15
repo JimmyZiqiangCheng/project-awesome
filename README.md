@@ -28,3 +28,6 @@
 - [ ] understand config routes and products
 - [ ] delete all routes except for /products
 - [ ] try chrome debugger
+
+## Questions:
+- useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
