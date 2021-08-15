@@ -32,3 +32,4 @@
 ## Questions:
 - productsTable: useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
 - productsTableHead: iconButton -> aria-owns/aria-haspopup
+- the use of interface with typescript
