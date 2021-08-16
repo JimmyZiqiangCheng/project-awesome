@@ -37,4 +37,4 @@
 
 ## Todo 2021.08.19
 - [ ] sql normalization
-- [ ] DOM vs. virtual DOM
+- [ ] DOM vs. virtual DOM, Reconciliation
