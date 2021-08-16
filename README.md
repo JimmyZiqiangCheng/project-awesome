@@ -26,10 +26,11 @@
 - [X] promise, async, await
 - [X] event loop,  micro task, macro task, optional chaining
 - [ ] understand config routes and products (still got lots of questions, hard to follow)
-- [ ] delete all routes except for /products
-- [ ] try chrome debugger
+- [ ] delete all routes except for /products (not yet comfortable)
+- [X] try chrome debugger
 
 ## Questions:
 - productsTable: useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
 - productsTableHead: iconButton -> aria-owns/aria-haspopup
 - the use of interface with typescript (for example, tablecellprops and withrouter)
+- useRef, forwardRef, the concept of ref
