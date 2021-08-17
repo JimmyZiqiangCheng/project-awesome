@@ -29,12 +29,6 @@
 - [ ] delete all routes except for /products (not yet comfortable)
 - [X] try chrome debugger
 
-## Questions:
-- productsTable: useSelector(selectProducts) -> productsAdapter -> createEntityAdapter
-- productsTableHead: iconButton -> aria-owns/aria-haspopup
-- the use of interface with typescript (for example, tablecellprops and withrouter)
-- useRef, forwardRef, the concept of ref
-
 ## Todo 2021.08.19
 - [ ] sql normalization
 - [ ] DOM vs. virtual DOM, Reconciliation
