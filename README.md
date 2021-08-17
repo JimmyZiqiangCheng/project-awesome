@@ -32,7 +32,7 @@
 ## Todo 2021.08.19
 - [ ] sql normalization
 - [X] DOM vs. virtual DOM, Reconciliation
-- [ ] ref and useRef
+- [x] ref and useRef
 - [ ] [promise, async, generator](https://juejin.cn/post/6844904096525189128#heading-16)
 - [X] [interview questions](https://www.fatalerrors.org/a/several-interview-questions-on-javascript-execution-mechanism.html)
 - [ ] try to understand products related pages and delete all pages other than products list
