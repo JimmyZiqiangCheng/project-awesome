@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-17
+[climbing stairs](https://leetcode-cn.com/problems/climbing-stairs/)
+
 ## 2021-08-16
 [top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - my solution: have a list of empty lists of len(k+1), build a number, freq pair hashmap. fill into the list according to freq. flatten the list and reverse it, take the first k elements.
