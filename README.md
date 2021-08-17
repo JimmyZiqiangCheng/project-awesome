@@ -30,7 +30,7 @@
 - [X] try chrome debugger
 
 ## Todo 2021.08.19
-- [ ] sql normalization
+- [X] sql normalization
 - [X] DOM vs. virtual DOM, Reconciliation
 - [x] ref and useRef
 - [ ] [promise, async, generator](https://juejin.cn/post/6844904096525189128#heading-16)
