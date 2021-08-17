@@ -31,6 +31,7 @@
 
 ## Todo 2021.08.19
 - [ ] sql normalization
-- [ ] DOM vs. virtual DOM, Reconciliation
+- [X] DOM vs. virtual DOM, Reconciliation
 - [ ] [promise, async, generator](https://juejin.cn/post/6844904096525189128#heading-16)
-- [ ] [interview questions](https://www.fatalerrors.org/a/several-interview-questions-on-javascript-execution-mechanism.html)
+- [X] [interview questions](https://www.fatalerrors.org/a/several-interview-questions-on-javascript-execution-mechanism.html)
+- try to understand products related pages and delete all pages other than products list
