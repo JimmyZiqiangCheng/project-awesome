@@ -2,7 +2,7 @@
 
 ## 2021-08-17
 [climbing stairs](https://leetcode-cn.com/problems/climbing-stairs/)
-
+- my solution: build a hashmap, m[1]=1, m[2]=2, for the rest, m[n] = m[n-1]+m[n-2], return m[n]
 ## 2021-08-16
 [top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - my solution: have a list of empty lists of len(k+1), build a number, freq pair hashmap. fill into the list according to freq. flatten the list and reverse it, take the first k elements.
