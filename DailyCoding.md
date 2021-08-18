@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-19
+[powx n](https://leetcode.com/problems/powx-n/)
+
 ## 2021-08-18
 [generate parentheses](https://leetcode.com/problems/generate-parentheses/)
 - my solution: recursively call a fucntion which adds ( or ) and subtracts the available num of ( or ). Also stick to the rule that there cannot be more ) than (
