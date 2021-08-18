@@ -2,6 +2,7 @@
 
 ## 2021-08-18
 [generate parentheses](https://leetcode.com/problems/generate-parentheses/)
+- my solution: recursively call a fucntion which adds ( or ) and subtracts the available num of ( or ). Also stick to the rule that there cannot be more ) than (
 
 ## 2021-08-17
 [climbing stairs](https://leetcode.com/problems/climbing-stairs/)
