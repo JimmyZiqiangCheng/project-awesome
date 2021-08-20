@@ -1,5 +1,11 @@
 # Daily Coding Challenge
 
+## 2021-08-21
+[n queens](https://leetcode.com/problems/n-queens/)
+
+## 2021-08-20
+[subsets](https://leetcode.com/problems/subsets/)
+
 ## 2021-08-19
 [powx n](https://leetcode.com/problems/powx-n/)
 
