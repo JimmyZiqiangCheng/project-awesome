@@ -8,6 +8,7 @@
 
 ## 2021-08-19
 [powx n](https://leetcode.com/problems/powx-n/)
+- my solution: not too sure if there are more efficient ways except for the default built-in method.
 
 ## 2021-08-18
 [generate parentheses](https://leetcode.com/problems/generate-parentheses/)
