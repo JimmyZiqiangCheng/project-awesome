@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-22
+[lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+
 ## 2021-08-21
 [n queens](https://leetcode.com/problems/n-queens/)
 - my solution: another backtracking problem. The key is to find the constraint, there cannot be Q in the same col, col+row, row-col. 
