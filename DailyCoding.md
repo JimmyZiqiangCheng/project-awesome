@@ -5,6 +5,7 @@
 
 ## 2021-08-20
 [subsets](https://leetcode.com/problems/subsets/)
+- my solution: for each new item, new subsets are item + all existing subsets.
 
 ## 2021-08-19
 [powx n](https://leetcode.com/problems/powx-n/)
