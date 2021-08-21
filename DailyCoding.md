@@ -2,6 +2,7 @@
 
 ## 2021-08-22
 [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- my solution: recursively traverse down the tree, mark True if meet one of the node. Return the answer (cur_node) when either itself, or its left/right child returns true.
 
 ## 2021-08-21
 [n queens](https://leetcode.com/problems/n-queens/)
