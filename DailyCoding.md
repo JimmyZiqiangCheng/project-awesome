@@ -2,6 +2,7 @@
 
 ## 2021-08-23
 [combinations](https://leetcode.com/problems/combinations/)
+- my solution: same as subsets, exit condition is when len(cur) == k, then in the recursive call, keep adding one to the start index, append the item to cur, after that pop the item in typical backtracking fashion.
 
 ## 2021-08-22
 [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
@@ -27,6 +28,7 @@
 ## 2021-08-17
 [climbing stairs](https://leetcode.com/problems/climbing-stairs/)
 - my solution: build a hashmap, m[1]=1, m[2]=2, for the rest, m[n] = m[n-1]+m[n-2], return m[n]
+
 ## 2021-08-16
 [top k frequent elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - my solution: have a list of empty lists of len(k+1), build a number, freq pair hashmap. fill into the list according to freq. flatten the list and reverse it, take the first k elements.
