@@ -29,11 +29,12 @@
 - [ ] delete all routes except for /products (not yet comfortable)
 - [X] try chrome debugger
 
-## Todo 2021.08.19
+## Todo 2021.08.23
 - [X] sql normalization
 - [X] DOM vs. virtual DOM, Reconciliation
 - [x] ref and useRef
-- [ ] [promise, async, generator](https://juejin.cn/post/6844904096525189128#heading-16)
+- [X] [promise, async, generator](https://juejin.cn/post/6844904096525189128#heading-16)
 - [X] [interview questions](https://www.fatalerrors.org/a/several-interview-questions-on-javascript-execution-mechanism.html)
 - [ ] try to understand products related pages and delete all pages other than products list
 - [X] replaced the form with react hook form in my todo app
+- [X] useHistory, useParams, useLocation and useRoutematch in react router dom
