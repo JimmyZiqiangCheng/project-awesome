@@ -41,4 +41,6 @@
 
 ## Todo 2021.08.26
 - [ ] redo orders
-- [ ] 
+- [ ] read [deep copy](https://javascript.plainenglish.io/how-to-deep-copy-objects-and-arrays-in-javascript-7c911359b089)[deep copy2](https://medium.com/@manjuladube/understanding-deep-and-shallow-copy-in-javascript-13438bad941c)
+- [ ] read [react deep dive](https://juejin.cn/post/6844903824683958286)
+- [ ] read [diffing algorithm in react](https://zhuanlan.zhihu.com/p/20346379)
