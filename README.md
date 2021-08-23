@@ -38,3 +38,7 @@
 - [ ] try to understand products related pages and delete all pages other than products list
 - [X] replaced the form with react hook form in my todo app
 - [X] useHistory, useParams, useLocation and useRoutematch in react router dom
+
+## Todo 2021.08.26
+- [ ] redo orders
+- [ ] 
