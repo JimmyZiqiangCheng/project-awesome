@@ -1,7 +1,11 @@
 # Daily Coding Challenge
 
+## 2021-08-25
+[permutations2](https://leetcode.com/problems/permutations-ii/)
+
 ## 2021-08-24
 [permutations](https://leetcode.com/problems/permutations/)
+- my solution: divide and conquer, the trick here is to keep popping element from the front, break it down to a single ele, and add the popped element to the back of the list, and keep moving up the tree again to form new permutations.
 
 ## 2021-08-23
 [combinations](https://leetcode.com/problems/combinations/)
@@ -22,7 +26,7 @@
 
 ## 2021-08-19
 [powx n](https://leetcode.com/problems/powx-n/)
-- my solution: not too sure if there are more efficient ways except for the default built-in method.
+- my solution: devide and conquer
 
 ## 2021-08-18
 [generate parentheses](https://leetcode.com/problems/generate-parentheses/)
