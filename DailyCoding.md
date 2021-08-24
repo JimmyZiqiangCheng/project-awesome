@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-24
+[permutations](https://leetcode.com/problems/permutations/)
+
 ## 2021-08-23
 [combinations](https://leetcode.com/problems/combinations/)
 - my solution: same as subsets, exit condition is when len(cur) == k, then in the recursive call, keep adding one to the start index, append the item to cur, after that pop the item in typical backtracking fashion.
