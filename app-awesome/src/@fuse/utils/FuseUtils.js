@@ -136,10 +136,12 @@ class FuseUtils {
 
 	static setRoutes(config, defaultAuth) {
 		let routes = [...config.routes];
-
 		routes = routes.map(route => {
-			let auth = config.auth || config.auth === null ? config.auth : defaultAuth || null;
-			auth = route.auth || route.auth === null ? route.auth : auth;
+			// let auth = config.auth || config.auth === null ? config.auth : defaultAuth || null;
+			// let auth = config.auth ? config.auth : defaultAuth || null;
+			let auth = config?.auth ? config.auth : defaultAuth || null;
+			// auth = route.auth || route.auth === null ? route.auth : auth;
+			auth = route?.auth ? route.auth : auth;
 			const settings = _.merge({}, config.settings, route.settings);
 
 			return {

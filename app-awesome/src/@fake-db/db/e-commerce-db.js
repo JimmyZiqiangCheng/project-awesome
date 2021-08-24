@@ -3168,47 +3168,47 @@ const eCommerceDB = {
 	]
 };
 
-mock.onGet('/api/e-commerce-app/products').reply(() => {
-	return [200, eCommerceDB.products];
-});
+// mock.onGet('/api/e-commerce-app/products').reply(() => {
+// 	return [200, eCommerceDB.products];
+// });
 
-mock.onPost('/api/e-commerce-app/remove-products').reply(request => {
-	const { productIds } = JSON.parse(request.data);
-	eCommerceDB.products = eCommerceDB.products.filter(product => !productIds.includes(product.id));
-	return [200, productIds];
-});
+// mock.onPost('/api/e-commerce-app/remove-products').reply(request => {
+// 	const { productIds } = JSON.parse(request.data);
+// 	eCommerceDB.products = eCommerceDB.products.filter(product => !productIds.includes(product.id));
+// 	return [200, productIds];
+// });
 
-mock.onPost('/api/e-commerce-app/remove-product').reply(request => {
-	const { id } = JSON.parse(request.data);
-	eCommerceDB.products = eCommerceDB.products.filter(product => id !== product.id);
-	return [200, id];
-});
+// mock.onPost('/api/e-commerce-app/remove-product').reply(request => {
+// 	const { id } = JSON.parse(request.data);
+// 	eCommerceDB.products = eCommerceDB.products.filter(product => id !== product.id);
+// 	return [200, id];
+// });
 
-mock.onGet('/api/e-commerce-app/product').reply(request => {
-	const { productId } = request.params;
-	const response = _.find(eCommerceDB.products, { id: productId });
-	return [200, response];
-});
+// mock.onGet('/api/e-commerce-app/product').reply(request => {
+// 	const { productId } = request.params;
+// 	const response = _.find(eCommerceDB.products, { id: productId });
+// 	return [200, response];
+// });
 
-mock.onPost('/api/e-commerce-app/product/save').reply(request => {
-	const data = JSON.parse(request.data);
-	let product = null;
+// mock.onPost('/api/e-commerce-app/product/save').reply(request => {
+// 	const data = JSON.parse(request.data);
+// 	let product = null;
 
-	eCommerceDB.products = eCommerceDB.products.map(_product => {
-		if (_product.id === data.id) {
-			product = data;
-			return product;
-		}
-		return _product;
-	});
+// 	eCommerceDB.products = eCommerceDB.products.map(_product => {
+// 		if (_product.id === data.id) {
+// 			product = data;
+// 			return product;
+// 		}
+// 		return _product;
+// 	});
 
-	if (!product) {
-		product = data;
-		eCommerceDB.products = [...eCommerceDB.products, product];
-	}
+// 	if (!product) {
+// 		product = data;
+// 		eCommerceDB.products = [...eCommerceDB.products, product];
+// 	}
 
-	return [200, product];
-});
+// 	return [200, product];
+// });
 
 mock.onGet('/api/e-commerce-app/orders').reply(() => {
 	return [200, eCommerceDB.orders];

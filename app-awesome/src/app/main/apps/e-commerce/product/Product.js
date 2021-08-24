@@ -36,7 +36,6 @@ const schema = yup.object().shape({
 function Product(props) {
 	const dispatch = useDispatch();
 	const product = useSelector(({ eCommerceApp }) => eCommerceApp.product);
-
 	const routeParams = useParams();
 	const [tabValue, setTabValue] = useState(0);
 	const [noProduct, setNoProduct] = useState(false);

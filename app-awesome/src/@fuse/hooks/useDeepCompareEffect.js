@@ -21,15 +21,14 @@ function isPrimitive(val) {
 
 function useDeepCompareMemoize(value) {
 	const ref = useRef();
-
 	if (!deepEqual(value, ref.current)) {
 		ref.current = value;
 	}
-
 	return ref.current;
 }
 
 function useDeepCompareEffect(callback, dependencies) {
+	console.log('dependancies: ', dependencies);
 	if (process.env.NODE_ENV !== 'production') {
 		checkDeps(dependencies);
 	}
