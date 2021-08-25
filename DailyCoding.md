@@ -2,10 +2,12 @@
 
 ## 2021-08-25
 [permutations2](https://leetcode.com/problems/permutations-ii/)
+slow version: same as permuation, check if ans has permu, if not add, if yes skip
+quicker version: sort the list, skip duplicate item and do some housekeeping
 
 ## 2021-08-24
 [permutations](https://leetcode.com/problems/permutations/)
-- my solution: divide and conquer, the trick here is to keep popping element from the front, break it down to a single ele, and add the popped element to the back of the list, and keep moving up the tree again to form new permutations.
+- my solution: backtracking, iterate through the list, keep removing item and put the item in the back of a temp_list, ad the temp_list to ans when the original list is empty. Then add item back to the original list.
 
 ## 2021-08-23
 [combinations](https://leetcode.com/problems/combinations/)
