@@ -2,12 +2,12 @@
 
 ## 2021-08-26
 [level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description)
-my solution: bfs, use a q to push in cur level value, keep poping left, and adding the children into the q.
+- my solution: bfs, use a q to push in cur level value, keep poping left, and adding the children into the q.
 
 ## 2021-08-25
 [permutations2](https://leetcode.com/problems/permutations-ii/)
-slow version: same as permuation, check if ans has permu, if not add, if yes skip
-quicker version: sort the list, skip duplicate item and do some housekeeping
+- slow version: same as permuation, check if ans has permu, if not add, if yes skip
+- quicker version: sort the list, skip duplicate item and do some housekeeping
 
 ## 2021-08-24
 [permutations](https://leetcode.com/problems/permutations/)
