@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-08-26
+[level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description)
+
 ## 2021-08-25
 [permutations2](https://leetcode.com/problems/permutations-ii/)
 slow version: same as permuation, check if ans has permu, if not add, if yes skip
