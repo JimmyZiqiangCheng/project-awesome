@@ -2,6 +2,7 @@
 
 ## 2021-08-26
 [level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description)
+my solution: bfs, use a q to push in cur level value, keep poping left, and adding the children into the q.
 
 ## 2021-08-25
 [permutations2](https://leetcode.com/problems/permutations-ii/)
