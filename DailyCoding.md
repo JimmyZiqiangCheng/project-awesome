@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-08-27
+[assign cookies](https://leetcode.com/problems/assign-cookies/description/)
+- my solution: sort the two arrays, compare item by item
+
 ## 2021-08-26
 [level order traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/#/description)
 - my solution: bfs, use a q to push in cur level value, keep poping left, and adding the children of the popped node into the q, until the q is empty.
