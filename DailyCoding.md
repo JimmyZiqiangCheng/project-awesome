@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-08-28
+[best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+- my solution: iterate through the list, if the latter item is bigger, subtract the former item and add to the total.
+
 ## 2021-08-27
 [assign cookies](https://leetcode.com/problems/assign-cookies/description/)
 - my solution: sort the two arrays, compare item by item
