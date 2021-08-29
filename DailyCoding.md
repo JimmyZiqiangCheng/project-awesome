@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+# 2021-08-30
+[sqrt x](https://leetcode.com/problems/sqrtx/)
+- my solution: modified binary search
+
 # 2021-08-29
 [jump game](https://leetcode.com/problems/jump-game/)
 - my solution: Iterate through the array, keep track of the max_reachable, once the current index(including the target) is bigger than the max_reachable, return False.
