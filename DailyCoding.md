@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+# 2021-08-29
+[jump game](https://leetcode.com/problems/jump-game/)
+- my solution: keep track of the max_reachable, once the current index(including the target) is bigger than the max_reachable, return False.
+
 ## 2021-08-28
 [best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 - my solution: iterate through the list, if the latter item is bigger, subtract the former item and add to the total.
