@@ -2,7 +2,7 @@
 
 # 2021-08-29
 [jump game](https://leetcode.com/problems/jump-game/)
-- my solution: keep track of the max_reachable, once the current index(including the target) is bigger than the max_reachable, return False.
+- my solution: Iterate through the array, keep track of the max_reachable, once the current index(including the target) is bigger than the max_reachable, return False.
 
 [jump game ii](https://leetcode.com/problems/jump-game-ii/)
 - my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
