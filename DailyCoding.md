@@ -1,15 +1,52 @@
 # Daily Coding Challenge
 
-# 2021-08-30
+## 2021-09-12
+[jump game ii](https://leetcode.com/problems/jump-game-ii/)
+- my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
+
+## 2021-09-11
+[word ladder2](https://leetcode-cn.com/problems/word-ladder-ii/description/)
+
+## 2021-09-10
+[find minimum in rotated sorted array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+
+## 2021-09-09
+[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+
+## 2021-09-08
+[search in rotated sorted array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+
+## 2021-09-07
+[jump game](https://leetcode-cn.com/problems/jump-game/)
+
+## 2021-09-06
+[minesweeper](https://leetcode-cn.com/problems/minesweeper/description/)
+
+## 2021-09-05
+[number of islands](https://leetcode-cn.com/problems/number-of-islands/)
+
+## 2021-09-04
+[word ladder](https://leetcode-cn.com/problems/word-ladder/description/)
+
+## 2021-09-03
+[walking robot simulation](https://leetcode-cn.com/problems/walking-robot-simulation/description/)
+
+## 2021-09-02
+[lemonade change](https://leetcode-cn.com/problems/lemonade-change/description/)
+
+## 2021-09-01
+[sell stock2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+## 2021-08-31
+[assign cookies](https://leetcode-cn.com/problems/assign-cookies/description/)
+
+## 2021-08-30
 [sqrt x](https://leetcode.com/problems/sqrtx/)
 - my solution: modified binary search
 
-# 2021-08-29
+## 2021-08-29
 [jump game](https://leetcode.com/problems/jump-game/)
 - my solution: Iterate through the array, keep track of the max_reachable, once the current index(including the target) is bigger than the max_reachable, return False.
-
-[jump game ii](https://leetcode.com/problems/jump-game-ii/)
-- my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
 
 ## 2021-08-28
 [best time to buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
