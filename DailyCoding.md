@@ -5,40 +5,41 @@
 - my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
 
 ## 2021-09-11
-[word ladder2](https://leetcode-cn.com/problems/word-ladder-ii/description/)
+[word ladder2](https://leetcode.com/problems/word-ladder-ii/description/)
 
 ## 2021-09-10
-[find minimum in rotated sorted array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)
+[find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 
 ## 2021-09-09
-[search a 2d matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)
+[search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 
 ## 2021-09-08
-[search in rotated sorted array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)
+[search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ## 2021-09-07
-[jump game](https://leetcode-cn.com/problems/jump-game/)
+[jump game](https://leetcode.com/problems/jump-game/)
 
 ## 2021-09-06
-[minesweeper](https://leetcode-cn.com/problems/minesweeper/description/)
+[minesweeper](https://leetcode.com/problems/minesweeper/description/)
 
 ## 2021-09-05
-[number of islands](https://leetcode-cn.com/problems/number-of-islands/)
+[number of islands](https://leetcode.com/problems/number-of-islands/)
 
 ## 2021-09-04
-[word ladder](https://leetcode-cn.com/problems/word-ladder/description/)
+[word ladder](https://leetcode.com/problems/word-ladder/description/)
 
 ## 2021-09-03
-[walking robot simulation](https://leetcode-cn.com/problems/walking-robot-simulation/description/)
+[walking robot simulation](https://leetcode.com/problems/walking-robot-simulation/description/)
 
 ## 2021-09-02
-[lemonade change](https://leetcode-cn.com/problems/lemonade-change/description/)
+[lemonade change](https://leetcode.com/problems/lemonade-change/description/)
 
 ## 2021-09-01
-[sell stock2](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+[sell stock2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
 
 ## 2021-08-31
-[assign cookies](https://leetcode-cn.com/problems/assign-cookies/description/)
+[assign cookies](https://leetcode.com/problems/assign-cookies/description/)
+- my solution: assign two pointers to two arrays. sort two arrays. do element wise comparison, have the cookie pointer increase every turn while the greed pointer increase only when the cookie ele is bigger, return the greed pointer.
 
 ## 2021-08-30
 [sqrt x](https://leetcode.com/problems/sqrtx/)
