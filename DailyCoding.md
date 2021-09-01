@@ -36,6 +36,7 @@
 
 ## 2021-09-01
 [sell stock2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+- my solution: iterate through the list. Whenver the latter item is bigger than the former item, add the difference to ans, return as at the end.
 
 ## 2021-08-31
 [assign cookies](https://leetcode.com/problems/assign-cookies/description/)
