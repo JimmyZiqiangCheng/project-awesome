@@ -30,9 +30,11 @@
 
 ## 2021-09-03
 [walking robot simulation](https://leetcode.com/problems/walking-robot-simulation/description/)
+- my solution: pretty straight forward, just follow the logic, trick is to turn the list of list to list of set in obstacles
 
 ## 2021-09-02
 [lemonade change](https://leetcode.com/problems/lemonade-change/description/)
+- my solution: record the num of 5s and 10s, follow the logic of change.
 
 ## 2021-09-01
 [sell stock2](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
