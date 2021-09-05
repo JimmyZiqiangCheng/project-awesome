@@ -24,9 +24,13 @@
 
 ## 2021-09-05
 [number of islands](https://leetcode.com/problems/number-of-islands/)
+- my solution: pollute the grid by turning 1 into 0, spread to 4 directions. Loop through the grid and call pollute if cur_pos is 1, count num of calls.
+[course schedule](https://leetcode.com/problems/course-schedule/)
+- my solution: first build an adjacency list with {course:[...pre]} pairs, then do DFS on each course. If loop, return False.
 
 ## 2021-09-04
 [word ladder](https://leetcode.com/problems/word-ladder/description/)
+- my solution: first build the adjacency list based on pattern. use a placeholder at each position of each word to find all patterns. Then use DFS.
 
 ## 2021-09-03
 [walking robot simulation](https://leetcode.com/problems/walking-robot-simulation/description/)
