@@ -17,20 +17,16 @@
 [search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 
 ## 2021-09-07
-[jump game](https://leetcode.com/problems/jump-game/)
+[course schedule ii](https://leetcode.com/problems/course-schedule-ii/)
+- my solution: similar to course schedule, whenever a node is done and no cycles, append the node to the answer list.
 
 ## 2021-09-06
-[minesweeper](https://leetcode.com/problems/minesweeper/description/)
+[course schedule](https://leetcode.com/problems/course-schedule/)
+- my solution: first build an adjacency list with {course:[...pre]} pairs, then do DFS on each course. Have a visiting set to record nodes in current cycle, and a visited set to record node that can be done. Return false if any node is revisited in one cycle, else True. Run this on every course.
 
 ## 2021-09-05
 [number of islands](https://leetcode.com/problems/number-of-islands/)
 - my solution: pollute the grid by turning 1 into 0, spread to 4 directions. Loop through the grid and call pollute if cur_pos is 1, count num of calls.
-
-[course schedule](https://leetcode.com/problems/course-schedule/)
-- my solution: first build an adjacency list with {course:[...pre]} pairs, then do DFS on each course. Have a visiting set to record nodes in current cycle, and a visited set to record node that can be done. Return false if any node is revisited in one cycle, else True. Run this on every course.
-
-[course schedule ii](https://leetcode.com/problems/course-schedule-ii/)
-- my solution: similar to course schedule, whenever a node is done and no cycles, append the node to the answer list.
 
 ## 2021-09-04
 [word ladder](https://leetcode.com/problems/word-ladder/description/)
