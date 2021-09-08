@@ -15,6 +15,7 @@
 
 ## 2021-09-08
 [search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+- my solution: first do binary search to find the pivot, then depending on the target's value and last element's value, do binary search.
 
 ## 2021-09-07
 [course schedule ii](https://leetcode.com/problems/course-schedule-ii/)
