@@ -12,6 +12,7 @@
 
 ## 2021-09-09
 [search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/)
+- my solution: like binary search, start from the middle row and check if target is smaller than the first ele or bigger than the last ele or in between.
 
 ## 2021-09-08
 [search in rotated sorted array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
