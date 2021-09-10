@@ -9,6 +9,7 @@
 
 ## 2021-09-10
 [find minimum in rotated sorted array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- my solution: first check if start < end, if so, return start ele. Then do binary search and check if mid > start, if so check left portion, if not check right portion. Because the point of change is always in the portion where left > right
 
 ## 2021-09-09
 [search a 2d matrix](https://leetcode.com/problems/search-a-2d-matrix/)
