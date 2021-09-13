@@ -2,6 +2,7 @@
 
 ## 2021-09-14
 [longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+[word break](https://leetcode.com/problems/word-break/)
 
 ## 2021-09-13
 [interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
