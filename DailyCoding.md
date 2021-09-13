@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-09-14
+[longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+
 ## 2021-09-13
 [interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
 - my solution: build a dict as {ratio:[rectangles]} key value pair. count num of pairs in each entry.
