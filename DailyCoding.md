@@ -4,6 +4,9 @@
 [interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
 - my solution: build a dict as {ratio:[rectangles]} key value pair. count num of pairs in each entry.
 
+[coin change](https://leetcode.com/problems/coin-change/submissions/)
+- my solution: dp, 1d array of [0] * length (amount+1). iterate through the array, for each coin in coins, value = min(value[i], value[i-coin]+1). return array[amount] if not inf, else -1
+
 ## 2021-09-12
 [jump game ii](https://leetcode.com/problems/jump-game-ii/)
 - my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
