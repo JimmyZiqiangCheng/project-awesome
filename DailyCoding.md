@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-09-13
+[interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
+- my solution: build a dict as {ratio:[rectangles]} key value pair. count num of pairs in each entry.
+
 ## 2021-09-12
 [jump game ii](https://leetcode.com/problems/jump-game-ii/)
 - my solution: greedy approach, have a window indicating the next reachable chunk, keep silde the window to the right until it includes the dest.
