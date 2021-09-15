@@ -5,6 +5,7 @@
 
 ## 2021-09-14
 [longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- my solution: dp, 1d array. for each item, trace back till find a smaller number i, cur_max = max (cur_max, dp[i] + 1), ans = max(cur_max, ans), return ans.
 
 ## 2021-09-13
 [interchangeable rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/)
