@@ -2,6 +2,7 @@
 
 ## 2021-09-15
 [word break](https://leetcode.com/problems/word-break/)
+- my solution: dp, 1d array init all false. Going backwards, if substring in word and dp[i + len(word)] == true, dp[i] = true and break. check dp[0].
 
 ## 2021-09-14
 [longest increasing subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
