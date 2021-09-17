@@ -1,4 +1,7 @@
 # Daily Coding Challenge
+## 2021-09-16
+[path sum ii](https://leetcode.com/problems/path-sum-ii/)
+- my solution: backtracking. keep track of cur_sum and path, if cur_sum == target, add the path to ans.
 
 ## 2021-09-15
 [word break](https://leetcode.com/problems/word-break/)
