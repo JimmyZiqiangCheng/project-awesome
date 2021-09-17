@@ -1,4 +1,13 @@
 # Daily Coding Challenge
+
+## 2021-09-18
+[most frequent subtree sum](https://leetcode.com/problems/most-frequent-subtree-sum/)
+- my solution: 
+
+## 2021-09-17
+[sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
+- my solution: store the sum to each leaf to a list, call the function recursively and pass in the cur_sum, return sum(list)
+
 ## 2021-09-16
 [path sum ii](https://leetcode.com/problems/path-sum-ii/)
 - my solution: backtracking. keep track of cur_sum and path, if cur_sum == target, add the path to ans.
