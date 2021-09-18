@@ -2,7 +2,7 @@
 
 ## 2021-09-18
 [most frequent subtree sum](https://leetcode.com/problems/most-frequent-subtree-sum/)
-- my solution: 
+- my solution: local sum = node.val + helper(left) + helper(right), store local sum in dict. return keys with highest values.
 
 ## 2021-09-17
 [sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
