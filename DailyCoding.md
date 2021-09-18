@@ -4,6 +4,9 @@
 [most frequent subtree sum](https://leetcode.com/problems/most-frequent-subtree-sum/)
 - my solution: local sum = node.val + helper(left) + helper(right), store local sum in dict. return keys with highest values.
 
+[letter combinations of a phone number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+- my solution: dfs. initiate a lookup table, an ans list. for each letter of the corresponding digit, recursively call the helper function until index == len(digits).
+
 ## 2021-09-17
 [sum root to leaf numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)
 - my solution: store the sum to each leaf to a list, call the function recursively and pass in the cur_sum, return sum(list)
