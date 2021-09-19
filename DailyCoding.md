@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-09-19
+[combination sum](https://leetcode.com/problems/combination-sum/)
+- my solution: backtracking. constraint: sum <= target. trick: start with the current index in recursive call to prevent permuation.
+
 ## 2021-09-18
 [most frequent subtree sum](https://leetcode.com/problems/most-frequent-subtree-sum/)
 - my solution: local sum = node.val + helper(left) + helper(right), store local sum in dict. return keys with highest values.
