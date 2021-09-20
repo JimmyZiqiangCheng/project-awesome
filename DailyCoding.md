@@ -2,6 +2,7 @@
 
 ## 2021-09-20
 [number of enclaves](https://leetcode.com/problems/number-of-enclaves/)
+- my solution: dfs. Similar to num of islands, you purge start from four sides, then count 1s remaining.
 
 ## 2021-09-19
 [combination sum](https://leetcode.com/problems/combination-sum/)
