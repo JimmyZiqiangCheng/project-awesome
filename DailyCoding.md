@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-09-20
+[number of enclaves](https://leetcode.com/problems/number-of-enclaves/)
+
 ## 2021-09-19
 [combination sum](https://leetcode.com/problems/combination-sum/)
 - my solution: backtracking. constraint: sum <= target. trick: start with the current index in recursive call to prevent permuation.
