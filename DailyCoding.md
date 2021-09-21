@@ -1,5 +1,12 @@
 # Daily Coding Challenge
 
+## 2021-09-21
+[surrounded regions](https://leetcode.com/problems/surrounded-regions/)
+- my solution: have a visited set. visit edges first, no flip and put into set, then visit center area with flip.
+
+[word search](https://leetcode.com/problems/word-search/)
+- my solution: dfs. have a visited set, visit neighbors according to the next given char in the word.
+
 ## 2021-09-20
 [number of enclaves](https://leetcode.com/problems/number-of-enclaves/)
 - my solution: dfs. Similar to num of islands, you purge start from four sides, then count 1s remaining.
