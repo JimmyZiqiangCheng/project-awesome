@@ -1,5 +1,14 @@
 # Daily Coding Challenge
 
+## 2021-09-23
+
+[valid sudoku](https://leetcode.com/problems/valid-sudoku/)
+- my solution:
+
+## 2021-09-22
+[minimum area rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
+- my solution: backtracking. double loop through the numlist, check if p1 and p2 are pair (diagonal) than check if p3 and p4 in list, calculate area, keep min.
+
 ## 2021-09-21
 [surrounded regions](https://leetcode.com/problems/surrounded-regions/)
 - my solution: have a visited set. visit edges first, no flip and put into set, then visit center area with flip.
