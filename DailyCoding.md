@@ -3,7 +3,7 @@
 ## 2021-09-23
 
 [valid sudoku](https://leetcode.com/problems/valid-sudoku/)
-- my solution:
+- my solution: build 3 maps, row_num, col_num and (r/3,c/3) as keys and hashset as values. double loop through the board, check if item in corresponding sets.
 
 ## 2021-09-22
 [minimum area rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
