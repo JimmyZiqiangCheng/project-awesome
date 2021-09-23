@@ -7,7 +7,7 @@
 
 ## 2021-09-22
 [minimum area rectangle](https://leetcode.com/problems/minimum-area-rectangle/)
-- my solution: backtracking. double loop through the numlist, check if p1 and p2 are pair (diagonal) than check if p3 and p4 in list, calculate area, keep min. Pruning (pre-calculate the area and see if it's smaller than curmin) can vastly reduce time.
+- my solution: Double loop through the numlist to find diagonal pair of pts. Check if two other pts in list. calculate area, keep min. Pruning (pre-calculate the area and see if it's smaller than curmin) can vastly reduce time.
 
 ## 2021-09-21
 [surrounded regions](https://leetcode.com/problems/surrounded-regions/)
