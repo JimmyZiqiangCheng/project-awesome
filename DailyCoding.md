@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-09-24
+[longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+
 ## 2021-09-23
 
 [valid sudoku](https://leetcode.com/problems/valid-sudoku/)
