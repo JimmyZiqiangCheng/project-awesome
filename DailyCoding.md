@@ -2,9 +2,10 @@
 
 ## 2021-09-26
 [longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/)
+- solution1: recursion + memoization. if char1 == char2, ans = 1 + helper(t1[1:],t2[1:]), else ans = max(helper1, helper2)
+- solution2: dp. 2d array, size t.length+1, go diagonal if char1 == char2, otherwise fill in max(down, right)
 
 ## 2021-09-23
-
 [valid sudoku](https://leetcode.com/problems/valid-sudoku/)
 - my solution: build 3 maps, row_num, col_num and (r/3,c/3) as keys and hashset as values. double loop through the board, check if item in corresponding sets.
 
