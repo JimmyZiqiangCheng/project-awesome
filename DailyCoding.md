@@ -1,5 +1,10 @@
 # Daily Coding Challenge
 
+## 2021-09-28
+[edit distance](https://leetcode.com/problems/edit-distance/)
+- solution1: recursion + memoization. if char1 == char2, ans = helper(w1[1:], w2[1:]). else, ans = min(replace, add, delete). 
+- solution2: dp. 2d array. length = word+1, double loop, similar to longest common subsequence.
+
 ## 2021-09-26
 [longest common subsequence](https://leetcode.com/problems/longest-common-subsequence/)
 - solution1: recursion + memoization. if char1 == char2, ans = 1 + helper(t1[1:],t2[1:]), else ans = max(helper1, helper2)
