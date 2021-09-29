@@ -1,7 +1,8 @@
 # Daily Coding Challenge
 ## 2021-09-29
 [regular expression matching](https://leetcode.com/problems/regular-expression-matching/)
-
+- solution: recursion + memoization. If not s and not p, True. If not p, False. if p[1] == *, skip or if match, s[1:] and keep. else if match, s[1:], p[1:], else False.
+ 
 ## 2021-09-28
 [edit distance](https://leetcode.com/problems/edit-distance/)
 - solution1: recursion + memoization. if char1 == char2, ans = helper(w1[1:], w2[1:]). else, ans = min(replace, add, delete). 
