@@ -1,4 +1,9 @@
 # Daily Coding Challenge
+
+## 2021-10-01
+[longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
+- solution: loop through the array, for each ele, expand and check if palindromic. even number r+1
+
 ## 2021-09-29
 [regular expression matching](https://leetcode.com/problems/regular-expression-matching/)
 - solution: recursion + memoization. If not s and not p, True. If not p, False. if p[1] == *, skip or if match, s[1:] and keep. else if match, s[1:], p[1:], else False.
