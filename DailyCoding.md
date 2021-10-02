@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-02
+[palindromic substrings](https://leetcode.com/problems/palindromic-substrings/)
+- solution: similar to the last problem. loop through the array, expand left and right, see if palindromic. use k in [0,1] to deal with even length.
+
 ## 2021-10-01
 [longest palindromic substring](https://leetcode.com/problems/longest-palindromic-substring/submissions/)
 - solution: loop through the array, for each ele, expand and check if palindromic. even number r+1
