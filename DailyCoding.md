@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-03
+[palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/)
+- solution: backtracking. start from i = 0, j = 0, increment j to form the first partition, check if pa, keep partition the rest of the string.
+
 ## 2021-10-02
 [palindromic substrings](https://leetcode.com/problems/palindromic-substrings/)
 - solution: similar to the last problem. loop through the array, expand left and right, see if palindromic. use k in [0,1] to deal with even length.
