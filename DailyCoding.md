@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-04
+[stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
+- solution: dp. keep two values: hold=-p[0], profit=0. loop through prices, hold = max(hold, profit - p[i]), profit = max(profit, p[i] + hold - fee.
+
 ## 2021-10-03
 [palindrome partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 - solution: backtracking. start from i = 0, j = 0, increment j to form the first partition, check if pa, keep partition the rest of the string.
