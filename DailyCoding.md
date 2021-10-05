@@ -2,6 +2,7 @@
 
 ## 2021-10-06
 [ones and zeros](https://leetcode.com/problems/ones-and-zeroes/)
+- solution1: dp with memoization. two choices, take or leave, exit condition: 1. end of list, 2. m and n == 0. 
 
 ## 2021-10-04
 [stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
