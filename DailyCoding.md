@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-10-06
+[ones and zeros](https://leetcode.com/problems/ones-and-zeroes/)
+
 ## 2021-10-04
 [stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
 - solution: dp. keep two values: hold=-p[0], profit=0. loop through prices, hold = max(hold, profit - p[i]), profit = max(profit, p[i] + hold - fee.
