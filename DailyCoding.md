@@ -1,8 +1,12 @@
 # Daily Coding Challenge
 
+## 2021-10-07
+[partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
 ## 2021-10-06
 [ones and zeros](https://leetcode.com/problems/ones-and-zeroes/)
-- solution1: dp with memoization. two choices, take or leave, exit condition: 1. end of list, 2. m and n == 0. 
+- solution1: recursion with memoization. two choices, take or leave, exit condition: 1. end of list, 2. m and n == 0. 
+- solution2: dp. 2d. rows = 0s, cols = 1s. for i in ones for j in zeros, dp[ij] = max(dp[ij], dp[i-ones,j-zeros] and such. return dp[ones, zeros]
 
 ## 2021-10-04
 [stock with transaction fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)
