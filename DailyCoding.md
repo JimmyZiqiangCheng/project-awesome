@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-10-08
+[house robber iii](https://leetcode.com/problems/house-robber-iii/)
+
 ## 2021-10-07
 [partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/)
 - solution: recursion with memo. two choices, either take or leave, same as ones and zeros. add up to half the total sum than True.
