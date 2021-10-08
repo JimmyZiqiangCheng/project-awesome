@@ -2,6 +2,7 @@
 
 ## 2021-10-08
 [house robber iii](https://leetcode.com/problems/house-robber-iii/)
+- solution: recursion. return value pair[take, skip]. If take root, root + next level skip, else, max(next level pair)
 
 ## 2021-10-07
 [partition equal subset sum](https://leetcode.com/problems/partition-equal-subset-sum/)
