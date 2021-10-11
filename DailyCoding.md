@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-10-11
+[merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+
 ## 2021-10-10
 [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - solution: 
