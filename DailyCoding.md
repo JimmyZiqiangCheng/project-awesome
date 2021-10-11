@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-12
+[binary tree longest consecutive sequence](https://www.lintcode.com/problem/595/description)
+- solution: recersion. if not node, return cur_l, else return max(cur_l, helper(left), helper(right)). if curval == parentval, cur_l +=1, else cur_l = 1
+
 ## 2021-10-11
 [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 - solution: have each l in lists pop item into a minheap. keap popping minheap.
