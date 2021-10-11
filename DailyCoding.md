@@ -2,6 +2,7 @@
 
 ## 2021-10-11
 [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- solution: have each l in lists pop item into a minheap. keap popping minheap.
 
 ## 2021-10-10
 [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
