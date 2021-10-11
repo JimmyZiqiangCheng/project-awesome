@@ -6,7 +6,7 @@
 
 ## 2021-10-10
 [find median from data stream](https://leetcode.com/problems/find-median-from-data-stream/)
-- solution: 
+- solution: keep two heaps. a max heap for small numbers, and a min heap for large numbers, keep len diff <= 1, max heap longer. pop max heap or average of max and min heap.
 
 ## 2021-10-08
 [house robber iii](https://leetcode.com/problems/house-robber-iii/)
