@@ -1,8 +1,12 @@
 # Daily Coding Challenge
 
+## 2021-10-13
+[binary tree max path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
+- solution: left = helper(node.left), right = helper(node. right), ans = max(ans, both forks), return max(0, val+left, val+right), 0 for in case single fork is <0. 
+
 ## 2021-10-12
 [binary tree longest consecutive sequence](https://www.lintcode.com/problem/595/description)
-- solution: recersion. if not node, return cur_l, else return max(cur_l, helper(left), helper(right)). if curval == parentval, cur_l +=1, else cur_l = 1
+- solution: recersion. if not node, return cur_l, else return max(cur_l, helper(left), helper(right)). if curval == parentval+1, cur_l +=1, else cur_l = 1
 
 ## 2021-10-11
 [merge k sorted lists](https://leetcode.com/problems/merge-k-sorted-lists/)
