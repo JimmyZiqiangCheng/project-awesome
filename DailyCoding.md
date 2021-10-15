@@ -4,6 +4,9 @@
 [find largest value in each tree row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
 - solution: use a q. keep popping q, append node into a temp list. after each iteration, append max(temp) to ans. 
 
+[binary tree zigzag level order traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
+- solution: same as above, or recursively call helper(node, level), and put (level, node.val) in dict. reverse values when level is odd. 
+
 ## 2021-10-13
 [binary tree max path sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - solution: left = helper(node.left), right = helper(node. right), ans = max(ans, both forks), return max(0, val+left, val+right), 0 for in case single fork is <0. 
