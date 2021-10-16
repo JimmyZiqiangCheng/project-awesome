@@ -4,6 +4,9 @@
 [populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - solution: use a q. for each round, keep all nodes in a list, have the prev node point to the next node.
 
+[binary tree right side view](https://leetcode.com/problems/binary-tree-right-side-view/)
+- solution: use a q. for each round, only push the last node into the ans list, but populate the q with all nodes.
+
 ## 2021-10-15
 [find largest value in each tree row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/)
 - solution: use a q. keep popping q, append node into a temp list. after each iteration, append max(temp) to ans. 
