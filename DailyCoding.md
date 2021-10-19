@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-19
+[construct binary tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/)
+- solution: root = pre[0]. mid = in.index[root.val]. split the list around mid. root.left = (preleft, inleft), root.right = (preright, inright)
+
 ## 2021-10-16
 [populating next right pointers in each node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 - solution: use a q. for each round, keep all nodes in a list, have the prev node point to the next node.
