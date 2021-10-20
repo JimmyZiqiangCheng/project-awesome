@@ -1,5 +1,10 @@
 # Daily Coding Challenge
 
+## 2021-10-20
+[remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+- solution1: have a list store all the node, pop the unwanted node, and reconstruct the linked list. 
+- solution2: have 2 pointers. lp point to head.prev, rp point to head.next for n. keep moving 2 pointers until rp is none, lp.next = lp.next.next to skip.
+
 ## 2021-10-19
 [construct binary tree from preorder and inorder traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/)
 - solution: root = pre[0]. mid = in.index[root.val]. split the list around mid. root.left = (preleft, inleft), root.right = (preright, inright)
