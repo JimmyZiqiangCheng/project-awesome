@@ -3,6 +3,10 @@
 ## 2021-10-22
 [add two numbers](https://leetcode.com/problems/add-two-numbers/)
 
+## 2021-10-21
+[swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
+- solution: have 3 pointers, prev, current and subs.Have a start node point to the first node. Recursively have prev point to subs, cur node point to subs.next and subs point to cur. return start.next.
+
 ## 2021-10-20
 [remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - solution1: have a list store all the node, pop the unwanted node, and reconstruct the linked list. 
