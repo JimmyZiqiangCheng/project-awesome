@@ -2,6 +2,7 @@
 
 ## 2021-10-22
 [add two numbers](https://leetcode.com/problems/add-two-numbers/)
+- solution: while l1 or l2 or carry, cur = 0, if l1, cur += l1, if l2, cur+=l2, cur+= carry, then check cur%10 as val for next node and cur//10 as carry
 
 ## 2021-10-21
 [swap nodes in pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
