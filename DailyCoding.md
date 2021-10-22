@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-10-22
+[add two numbers](https://leetcode.com/problems/add-two-numbers/)
+
 ## 2021-10-20
 [remove nth node from end of list](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - solution1: have a list store all the node, pop the unwanted node, and reconstruct the linked list. 
