@@ -2,7 +2,8 @@
 
 ## 2021-10-23
 [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii)
-- solution: keep a hashset of nodes, if encounters duplicate return the node.
+- solution1: keep a hashset of nodes, if encounters duplicate return the node.
+- solution2: have a slow and a fast pointer. move slow 1 step each time, fast 2 steps each time, if slow == fast, return slow. use head and slow as starting point, move 1 step each time for both, return the node when meet.
 
 ## 2021-10-22
 [add two numbers](https://leetcode.com/problems/add-two-numbers/)
