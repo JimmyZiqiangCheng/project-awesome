@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-25
+[number of provinces](https://leetcode.com/problems/number-of-provinces/)
+- solution: union find. have two list parent and rank. union: if two parents differ, connect low rank to high rank. find: while n != parent[n], keep tracking parents, return 1 else return 0. loop through the matrix, when matrix[i,j] is 1, do union. ans -= union(i,j), return ans.
+
 ## 2021-10-23
 [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii)
 - solution1: keep a hashset of nodes, if encounters duplicate return the node.
