@@ -3,6 +3,7 @@
 ## 2021-10-25
 [number of provinces](https://leetcode.com/problems/number-of-provinces/)
 - solution: union find. have two list parent and rank. union: if two parents differ, connect low rank to high rank. find: while n != parent[n], keep tracking parents, return 1 else return 0. loop through the matrix, when matrix[i,j] is 1, do union. ans -= union(i,j), return ans.
+- solution2: dfs. loop through rows. If r not in visited, put r in visited. loop through column, call(column). like num of islands, expand till end for each row. ans += 1 if new row not in visited.
 
 ## 2021-10-23
 [linked list cycle ii](https://leetcode.com/problems/linked-list-cycle-ii)
