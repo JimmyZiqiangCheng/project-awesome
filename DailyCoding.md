@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-26
+[graph valid trees](https://www.lintcode.com/problem/178/description)
+- solution: build adjacency list and keep a visited set. start from node 0, set prev = -1, recursively check each child if child!=prev and set prev. return False if node in seen, otherwise true. check if has loop and visited length = n.
+
 ## 2021-10-25
 [number of provinces](https://leetcode.com/problems/number-of-provinces/)
 - solution: union find. have two list parent and rank. union: if two parents differ, connect low rank to high rank. find: while n != parent[n], keep tracking parents, return 1 else return 0. loop through the matrix, when matrix[i,j] is 1, do union. ans -= union(i,j), return ans.
@@ -173,7 +177,7 @@
 - my solution: first do binary search to find the pivot, then depending on the target's value and last element's value, do binary search.
 
 ## 2021-09-07
-[course schedule ii](https://leetcode.com/problems/course-schedule-ii/)
+[schedule ii](https://leetcode.com/problems/course-schedule-ii/)
 - my solution: similar to course schedule, whenever a node is done and no cycles, append the node to the answer list.
 
 ## 2021-09-06
