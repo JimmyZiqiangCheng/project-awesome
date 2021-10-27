@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-10-27
+[min cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/)
+- solution: kruskal's. Build dict{p:[p,rank]}. Rank all the vertices, loop through, do union find. Add d to ans, if not union. return ans.
+
 ## 2021-10-26
 [graph valid trees](https://www.lintcode.com/problem/178/description)
 - solution: build adjacency list and keep a visited set. start from node 0, set prev = -1, recursively check each child if child!=prev and set prev. return False if node in seen, otherwise true. check if has loop and visited length = n.
