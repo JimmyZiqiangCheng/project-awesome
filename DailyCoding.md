@@ -2,7 +2,8 @@
 
 ## 2021-10-27
 [min cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/)
-- solution: kruskal's. Build dict{p:[p,rank]}. Rank all the vertices, loop through, do union find. Add d to ans, if not union. return ans.
+- solution1: kruskal's. Build dict{p:[p,rank]}. Rank all the vertices, loop through, do union find. Add d to ans, if not union. return ans.
+- solution2: prim's. keep a q of distance. keep a set of seen nodes. while len(seen) < len(points), keep poping from q, add d to ans, and push the d from poped to all unseen nodes to q. return ans.
 
 ## 2021-10-26
 [graph valid trees](https://www.lintcode.com/problem/178/description)
