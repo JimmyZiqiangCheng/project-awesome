@@ -3,6 +3,7 @@
 ## 2021-11-1
 [network delay time](https://leetcode.com/problems/network-delay-time/submissions/)
 - solution: Dijkstra's. keep a weight list. set weight[k] to 0. keep a heapq, push the adjacent node into the q. keep poping, update the weight, and expand(push the neighbor of popped node into the q), keep doing this until q is empty, return the max weight.
+- solution: dfs. Build a graph, keep a weight list. start from k, pass in elapsed time, loop through neighbors, update weight, call the function recursively.
 
 ## 2021-10-27
 [min cost to connect all points](https://leetcode.com/problems/min-cost-to-connect-all-points/submissions/)
