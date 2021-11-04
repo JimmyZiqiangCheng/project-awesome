@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-4
+[cheapest flight within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/)
+- solution: BFS. build the graph, keep a dict of weights. do bfs with a q with hops and keep updating the weights if hop < k and weight < weights[i].
+
 ## 2021-11-1
 [network delay time](https://leetcode.com/problems/network-delay-time/submissions/)
 - solution: Dijkstra's. keep a weight list. set weight[k] to 0. keep a heapq, push the adjacent node into the q. keep poping, update the weight, and expand(push the neighbor of popped node into the q), keep doing this until q is empty, return the max weight.
