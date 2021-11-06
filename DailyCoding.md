@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-6
+[path with max probability](https://leetcode.com/problems/path-with-maximum-probability/submissions/)
+- solution: Dijkstra's. build a graph using dict. keep a priority q. keep popping from the q, and add node into q if prob[node] changes. 
+
 ## 2021-11-4
 [cheapest flight within k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/)
 - solution: BFS. build the graph, keep a dict of weights. do bfs with a q with hops and keep updating the weights if hop < k and weight < weights[i].
