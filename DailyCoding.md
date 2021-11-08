@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-8
+[path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
+- solution: Dijkstra's. initiate a grid of inf, a q. expand from origin, check height diff, update if smaller, push into q.
+
 ## 2021-11-6
 [path with max probability](https://leetcode.com/problems/path-with-maximum-probability/submissions/)
 - solution: Dijkstra's. build a graph using dict. keep a priority q. keep popping from the q, and add node into q if prob[node] changes. 
