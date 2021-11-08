@@ -4,6 +4,9 @@
 [path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - solution: Dijkstra's. initiate a grid of inf, a q. expand from origin, check height diff, update if smaller, push into q.
 
+[find the city with the smallest number of neighbors at a threshold distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)
+- solution: Dijkstra's. Run dijkstra's on each node. keep a list of num_cities_reachable for each node, return the index of the least. For each node, have a priority q to push in node when total_distance is smaller than threshold, in the end, count the num of city reachable and update the list.
+
 ## 2021-11-6
 [path with max probability](https://leetcode.com/problems/path-with-maximum-probability/submissions/)
 - solution: Dijkstra's. build a graph using dict. keep a priority q. keep popping from the q, and add node into q if prob[node] changes. 
