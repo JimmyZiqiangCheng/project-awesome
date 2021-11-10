@@ -1,9 +1,15 @@
 # Daily Coding Challenge
 
-## 2021-11-8
+## 2021-11-10
+[course schedule iv](https://leetcode.com/problems/course-schedule-iv/)
+- solution: BFS. build a matrix[n*n]. initialize with 0. for each start node, do a bfs, fill in the matrix, if reachable then 1. 
+- solution2: Floyd Warshall. build a matrix, fill in 1 for all given prereq, do floyd warshall (triple loop, ij = min(ij, ik+kj)).
+
+## 2021-11-9
 [path with minimum effort](https://leetcode.com/problems/path-with-minimum-effort/)
 - solution: Dijkstra's. initiate a grid of inf, a q. expand from origin, check height diff, update if smaller, push into q.
 
+## 2021-11-8
 [find the city with the smallest number of neighbors at a threshold distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)
 - solution: Dijkstra's. Run dijkstra's on each node. keep a list of num_cities_reachable for each node, return the index of the least. For each node, have a priority q to push in node when total_distance is smaller than threshold, in the end, count the num of city reachable and update the list.
 
@@ -202,7 +208,7 @@
 - my solution: first do binary search to find the pivot, then depending on the target's value and last element's value, do binary search.
 
 ## 2021-09-07
-[schedule ii](https://leetcode.com/problems/course-schedule-ii/)
+[course scheduleii](https://leetcode.com/problems/course-schedule-ii/)
 - my solution: similar to course schedule, whenever a node is done and no cycles, append the node to the answer list.
 
 ## 2021-09-06
