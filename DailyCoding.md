@@ -12,6 +12,7 @@
 ## 2021-11-8
 [find the city with the smallest number of neighbors at a threshold distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)
 - solution: Dijkstra's. Run dijkstra's on each node. keep a list of num_cities_reachable for each node, return the index of the least. For each node, have a priority q to push in node when total_distance is smaller than threshold, in the end, count the num of city reachable and update the list.
+- solution2: Floyd Warshall. initiate a grid, fill in all edges, and set selfdistance = 0. run floyd warshall, count numofcity distance < threshold.
 
 ## 2021-11-6
 [path with max probability](https://leetcode.com/problems/path-with-maximum-probability/submissions/)
