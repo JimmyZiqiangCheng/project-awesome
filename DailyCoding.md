@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 2021-11-16
+[partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
+
 ## 2021-11-15
 [max area of island](https://leetcode.com/problems/max-area-of-island/)
 - solution: dfs. keep polluting expanding 4 ways. have a countcur to keep cur area, an ans to keep max area.
