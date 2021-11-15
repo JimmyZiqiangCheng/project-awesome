@@ -8,6 +8,10 @@
 [find all anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - solution: sliding window. have a counter map, check the first p.length elements in s and p, map[ele] + 1 if in s, -1 if in p. if all map.values = 0, push 0 into ans, then initiate l,r pointer, slide through s, keep adding and subtracting ele from the counter, check each time if map.values = 0, if so push l. 
 
+## 2021-11-13
+[trim a binary search tree](https://leetcode.com/problems/trim-a-binary-search-tree/)
+- solution: recursion. if null, return null, if < low, return right tree, if > high, return left tree, else right = trim(root.right), left = trim(root.left), return root.
+
 ## 2021-11-10
 [course schedule iv](https://leetcode.com/problems/course-schedule-iv/)
 - solution: BFS. build a matrix[n*n]. initialize with 0. for each start node, do a bfs, fill in the matrix, if reachable then 1. 
