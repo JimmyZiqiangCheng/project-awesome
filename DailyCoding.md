@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-15
+[max area of island](https://leetcode.com/problems/max-area-of-island/)
+- solution: dfs. keep polluting expanding 4 ways. have a countcur to keep cur area, an ans to keep max area.
+
 ## 2021-11-14
 [find all anagrams in a string](https://leetcode.com/problems/find-all-anagrams-in-a-string/)
 - solution: sliding window. have a counter map, check the first p.length elements in s and p, map[ele] + 1 if in s, -1 if in p. if all map.values = 0, push 0 into ans, then initiate l,r pointer, slide through s, keep adding and subtracting ele from the counter, check each time if map.values = 0, if so push l. 
