@@ -2,6 +2,7 @@
 
 ## 2021-11-16
 [partition to k equal sum subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
+- solution: backtracking. keep a used list, set target as avg of nums. helper function, if cur_k == 0, return true; if cur_sum == target, return helper(0, 0, cur_k-1), loop through nums array start from cur_index, if i not used and sum < target, recursively call with i+1. Start from index 0, call the helper function.
 
 ## 2021-11-15
 [max area of island](https://leetcode.com/problems/max-area-of-island/)
