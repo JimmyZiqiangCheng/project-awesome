@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-20
+[find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/submissions/)
+- solution: BFS. Instead of going left than right, do right than left, then the last node in the q is the bottom left one.
+
 ## 2021-11-19
 [matchsticks to square](https://leetcode.com/problems/matchsticks-to-square)
 - solution: same as partition to k equal sum subsets where k == 4.
