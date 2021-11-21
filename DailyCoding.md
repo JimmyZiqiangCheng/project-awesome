@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-21
+[target sum](https://leetcode.com/problems/target-sum/)
+- solution: recursion with memoization. if i == len, return 1 if curtotal == target, else 0, cache(i, curtotal) = helper(add) + helper(subtract), return it.
+
 ## 2021-11-20
 [find bottom left tree value](https://leetcode.com/problems/find-bottom-left-tree-value/submissions/)
 - solution: BFS. Instead of going left than right, do right than left, then the last node in the q is the bottom left one.
