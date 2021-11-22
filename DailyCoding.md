@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-22
+[majority element](https://leetcode.com/problems/majority-element/)
+- solution: Boyer moore. Only works if majority > len/2. keep a max and a count. if ele incountered is max, count += 1, else count -=1. if count = 0, change max.
+
 ## 2021-11-21
 [target sum](https://leetcode.com/problems/target-sum/)
 - solution: recursion with memoization. if i == len, return 1 if curtotal == target, else 0, cache(i, curtotal) = helper(add) + helper(subtract), return it.
