@@ -2,7 +2,8 @@
 
 ## 2021-11-23
 [permutation in string](https://leetcode.com/problems/permutation-in-string/)
-- solution: sliding window. build a dict for s1, slide through s2 with window size s1, build dict2, if dict1 == dict2, return true.
+- solution1: Build a dict for s1, slide through s2 with window size s1, build dict2, if dict1 == dict2, return true.
+- solution2: Sliding window. build dict1 & dict2, dict1 based on count s1, dict2 with s1 key but value = 0. Check the first s1 size of s2, update dict2, then slide through s2 and keep updating dict2, return true if dict1 == dict2.
 
 ## 2021-11-22
 [majority element](https://leetcode.com/problems/majority-element/)
