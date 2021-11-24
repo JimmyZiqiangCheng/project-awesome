@@ -1,5 +1,9 @@
 # Daily Coding Challenge
 
+## 2021-11-23
+[permutation in string](https://leetcode.com/problems/permutation-in-string/)
+- solution: sliding window. build a dict for s1, slide through s2 with window size s1, build dict2, if dict1 == dict2, return true.
+
 ## 2021-11-22
 [majority element](https://leetcode.com/problems/majority-element/)
 - solution: Boyer moore. Only works if majority > len/2. keep a max and a count. if ele incountered is max, count += 1, else count -=1. if count = 0, change max.
