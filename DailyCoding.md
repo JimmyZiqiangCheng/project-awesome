@@ -1,7 +1,8 @@
 # Daily Coding Challenge
 
-## 2021-11-24
 
+- 1. [insert interval](https://leetcode.com/problems/insert-interval)
+- solution: record the start and end of newInterval, loop through intervals, check if intersect, if so, merge into newInterval, if not insert.
 
 ## 2021-11-23
 [permutation in string](https://leetcode.com/problems/permutation-in-string/)
