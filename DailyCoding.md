@@ -1,5 +1,7 @@
 # Daily Coding Challenge
 
+##98. [rotting oranges](https://leetcode.com/problems/rotting-oranges)
+- solution: BFS. carry a level value to each tuple (i, j, lvl) in the queue. ans = lvl in the end. check once again if there's remaining 1s if so return -1 else ans.
 
 ## 97. [insert interval](https://leetcode.com/problems/insert-interval)
 - solution: record the start and end of newInterval, loop through intervals, check if intersect, if so, merge into newInterval, if not insert.
