@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 99. [subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree)
+- solution: recursive tree traversal. true if sub is null, false if root is null, if helper() true, else return helper(r.left) or helper(r.right). helper determines if two trees are the same by recursively going over each node, true if both null, if both equal keep calling helper(n.right) and helper(n.left).
+
 ## 98. [rotting oranges](https://leetcode.com/problems/rotting-oranges)
 - solution: BFS. carry a level value to each tuple (i, j, lvl) in the queue. ans = lvl in the end. check once again if there's remaining 1s if so return -1 else ans.
 
