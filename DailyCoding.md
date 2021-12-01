@@ -1,5 +1,8 @@
 # Daily Coding Challenge
 
+## 100. [path sum](https://leetcode.com/problems/path-sum)
+- solution: recursive tree traversal. keep a curSum value, when leaf is reached, check against target.
+
 ## 99. [subtree of another tree](https://leetcode.com/problems/subtree-of-another-tree)
 - solution: recursive tree traversal. true if sub is null, false if root is null, if helper() true, else return helper(r.left) or helper(r.right). helper determines if two trees are the same by recursively going over each node, true if both null, if both equal keep calling helper(n.right) and helper(n.left).
 
