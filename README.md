@@ -1,5 +1,7 @@
 # project-awesome
 
+This is a on-going complex react project that uses redux.
+
 ## Todo 2021.08.05
 - [X] creact react app
 - [X] set up yarn, .gitignore, eslint
