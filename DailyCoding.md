@@ -257,7 +257,7 @@
 ## 19. [n queens](https://leetcode.com/problems/n-queens/)
 - my solution: another backtracking problem. The key is to find the constraint, there cannot be Q in the same col, col+row, row-col. 
 
-## 18. [subsets](https://leetcode.com/problems/subsets/)
+- [x] [subsets](https://leetcode.com/problems/subsets/)
 - my solution: for each new item, new subsets are item + all existing subsets.
 - my solution 2: backtracking, have a start index and cur_length, for each ele in array, recursively call the function and keep iterating the start index as well, when sub array length equals to cur_length, put it in the answer array.
 
