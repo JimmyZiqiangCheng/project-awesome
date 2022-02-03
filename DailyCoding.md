@@ -254,7 +254,7 @@
 ## 20. [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - my solution: recursively traverse down the tree, mark True if meet one of the node. Return the answer (cur_node) when either itself, or its left/right child returns true.
 
-## 19. [n queens](https://leetcode.com/problems/n-queens/)
+- [x] [n queens](https://leetcode.com/problems/n-queens/)
 - my solution: another backtracking problem. The key is to find the constraint, there cannot be Q in the same col, col+row, row-col. 
 
 - [x] [subsets](https://leetcode.com/problems/subsets/)
