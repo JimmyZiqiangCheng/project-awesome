@@ -248,7 +248,7 @@
 ## 22. [permutations](https://leetcode.com/problems/permutations/)
 - my solution: backtracking, iterate through the list, keep removing item and put the item in the back of a temp_list, ad the temp_list to ans when the original list is empty. Then add item back to the original list.
 
-## 21. [combinations](https://leetcode.com/problems/combinations/)
+- [x] [combinations](https://leetcode.com/problems/combinations/)
 - my solution: same as subsets, exit condition is when len(cur) == k, then in the recursive call, keep adding one to the start index, append the item to cur, after that pop the item in typical backtracking fashion.
 
 - [x] [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
