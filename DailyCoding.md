@@ -251,7 +251,7 @@
 ## 21. [combinations](https://leetcode.com/problems/combinations/)
 - my solution: same as subsets, exit condition is when len(cur) == k, then in the recursive call, keep adding one to the start index, append the item to cur, after that pop the item in typical backtracking fashion.
 
-## 20. [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+- [x] [lowest common ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - my solution: recursively traverse down the tree, mark True if meet one of the node. Return the answer (cur_node) when either itself, or its left/right child returns true.
 
 - [x] [n queens](https://leetcode.com/problems/n-queens/)
